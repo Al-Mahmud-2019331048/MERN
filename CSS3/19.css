@@ -1,0 +1,26 @@
+h1{
+    color:tomato;
+}
+h2{
+    color: rgba(229, 255, 0, 0.719);
+    /* r,g,b,opacity(0-1) */
+}
+
+p{
+    color: #ff00ff;
+    /* 'color picker' & 'falt UI' by google */
+}
+
+
+/* gradiant color */
+.d1{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(rgb(204, 226, 189),rgb(25, 10, 230));
+}
+
+.d2{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(yellow,green);
+}

@@ -1,0 +1,25 @@
+.d1{
+    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    /* responsive */
+    flex-wrap: wrap;
+    /* direction */
+    flex-direction: row;
+    /* flex-flow: wrap column; */
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.d1 > div{
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+/* reorder */
+/* .d1>div :nth-child(5){
+    order: 1;
+} */

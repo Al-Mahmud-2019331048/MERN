@@ -1,0 +1,47 @@
+.d1{
+    width: 600px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+    /* things in box 1 is relative */
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+.d2{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.name{
+  border: 2px solid orangered;
+  margin-top: 10px;
+  width: 200px;
+  background-color: black;
+  color: white;
+
+  position: sticky;
+  top: 0;
+}
+
+p{
+    padding-bottom: 1000px;
+    /* to scroll long  */
+}
+
+.find{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

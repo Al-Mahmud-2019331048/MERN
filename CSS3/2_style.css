@@ -1,0 +1,15 @@
+.p1{
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+}
+.p2{
+    border: 5px solid red;
+}
+
+#p3{
+    border-width: 10px;
+    border-style:dotted;
+    border-color: blueviolet;
+}

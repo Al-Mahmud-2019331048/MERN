@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    display: inline-block;
+    /*block to inline*/
+}
+
+span{
+    text-align: center;
+    display: block;
+    /*inline to block*/
+}
+
+ul li{
+    display: inline;
+    /*listing in one line*/
+}

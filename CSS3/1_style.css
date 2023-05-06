@@ -1,0 +1,12 @@
+h1{
+    color: aqua;
+    background-color: blue;
+}
+
+body{
+    background-color: rgb(105, 219, 39);
+    color: antiquewhite;
+    background-image: url(11.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}

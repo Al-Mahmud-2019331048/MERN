@@ -1,0 +1,27 @@
+.a1{
+    color: red;
+    text-decoration: none;
+    background-color: green;
+    font-size: 30px;
+    padding: 5px 10px;
+    border: 5px solid black;
+}
+
+.a1:hover{
+    color: aqua;
+    background-color: black;
+    size: 50px;
+}
+
+.a1:active{
+    color: yellow;
+}
+
+.a1:visited{
+    color: blue;
+    background-color: orange;
+}
+
+.a2{
+    color: aqua;
+}

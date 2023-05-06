@@ -1,0 +1,70 @@
+.d1{
+    height: 400px;
+    width: 400px;
+    /* background-color: tomato; */
+    margin: 100px auto;
+    border: 15px solid rgb(197, 59, 59);
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    animation: d1 2s infinite forwards;
+}
+
+/* creating animation */
+@keyframes  d1{
+    0%{
+        border-color: red;
+        transform: scale(1);
+    }
+    25%{
+        border-color: orange;
+        transform: scale(1.1);
+    }
+    50%{
+        border-color: lime;
+        transform: scale(1.2);
+    }
+    75%{
+        border-color: navy;
+        transform: scale(1.1);
+    }
+    100%{
+        border-color: green;
+        transform: scale(1);
+    }
+}
+
+.d2{
+    width: 200px;
+    height: 200px;
+    /* background-color: black; */
+    border: 7px  solid black;
+    margin: 100px auto;
+    background-image: url(zimg1.png);
+    animation : d2 2s infinite alternate;
+
+}
+
+@keyframes d2{
+    0%{
+        border-color: red;
+        transform: rotate(0deg);
+        border-width: 10px;
+    }
+    25%{
+        border-color: aqua;
+        border-width: 15px;
+    }
+    50%{
+        border-color: rgb(114, 76, 146);
+        border-width: 15px;
+    }
+    75%{
+        border-color: rgb(238, 15, 127);
+        border-width: 15px;
+    }
+    100%{
+        border-color: #f8fc08;
+        transform: rotate(360deg);
+    }
+}

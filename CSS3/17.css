@@ -1,0 +1,30 @@
+/* pseudo class : hover */
+a:hover{
+    color: black;
+    background-color: blue;
+}
+
+/* without class */
+h2:first-child{
+    color: aqua;
+}
+h2:nth-child(3){
+    color: red;
+}
+
+/* pseudo element */
+p::first-letter{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+h1::before{
+    content: url(star.png);
+}
+
+h1::after{
+    content: url(star.png);
+}
+
+
+

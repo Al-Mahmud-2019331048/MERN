@@ -1,0 +1,13 @@
+.d1{
+    width: 172px;
+    height: 191px;
+    background-image: url(zspriteimg.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 0 0;
+    transition: 1s;
+}
+
+.d1:hover{
+    background-position: 0,0;
+}

@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+
+.d1{
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    margin: 100px auto;
+    position: relative;
+
+    transform: rotate(45deg);
+    /* transform: scale(.5); */
+    /* transform: scaleX(2); */
+    /* transform: skew(45deg); */
+    /* transform: translate(0,200px); */
+    /* transform: translateX(200px); */
+}
+
+.d1 h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40%;
+}
+
+.d2{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(39, 240, 89);
+    margin: 100px auto;
+
+    /* transition-property: var(auto);
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+    transition-timing-function:cubic-bezier(0.01, 1.1, 0.45, 0.94) */
+    /* cubic-bazier.com */
+
+    transition: all 0.5s linear;
+}
+
+.d2:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    transform: rotate(180deg);
+}

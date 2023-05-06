@@ -1,0 +1,64 @@
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(10, 240, 163);
+    margin: 100px auto;
+    position: relative;
+    animation-name: square;
+    animation-duration: 6s;
+}
+
+@keyframes square{
+    /* from{background-color: rgb(10, 240, 163);}
+    to{background-color: green;} */
+    0%{background-color: rgb(10, 240, 163);}
+    25%{background-color: rgb(93, 170, 93);}
+    50%{background-color: rgb(14, 230, 14);}
+    100%{background-color: rgb(241, 7, 136);}
+}
+
+.box2{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(10, 240, 163);
+    margin: 100px auto;
+    position: relative;
+    /* animation-name: square;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-fill-mode:backwards;
+    animation-play-state: running; */
+    animation: square 6s linear 2s infinite alternate backwords running;
+}
+
+@keyframes square{
+    0%{
+        background-color: rgb(10, 240, 163);
+        left: 0;
+        right: 0;
+    }
+    25%{
+        background-color: rgb(93, 170, 93);
+        left: 500px;
+        right: 0px;
+    }
+    50%{
+        background-color: rgb(14, 230, 14);
+        left: 500px;
+        right: 500px;
+        border-radius: 50%;
+    }
+    75%{
+        background-color: red;
+        left: 0;
+        right: 500px;
+    }
+    100%{
+        background-color: rgb(241, 7, 136);
+        left: 0px;
+        right: 0px;
+        border-radius: 0px;
+    }
+}

@@ -1,0 +1,11 @@
+table, th, td{
+    border: 3px solid tomato;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+th,td{
+    color: blue;
+}

@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: -5px 5px 5px rgb(100, 100, 10);
+    /* x y blur color */
+}
+
+.d1{
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    box-shadow: 5px 5px 5px rgb(78, 78, 32);
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+h3{
+    margin: 0;
+}
