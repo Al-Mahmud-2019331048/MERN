@@ -1,0 +1,145 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+
+/* font-family: 'Dancing Script', cursive; */
+
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #0f2136;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    margin: 0px;
+    height: 52px;
+    left: 0;
+}
+
+.nav1 .d2{
+    align-items:last baseline;
+    margin: 0 100px;
+    padding-right: 10px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #b46016;
+    border-radius: 3px;
+    justify-content: space-between;
+}
+
+.nav2{
+    height: 80px;
+    width: 100%;
+    color: black;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    align-items: end;
+}
+
+.nav2 .menu a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    background: rgb(180, 243, 9);
+    border-radius: 5px;
+    box-shadow: 1px 2px rgb(75, 36, 36);
+}
+
+.nav2 #who{
+    text-align: center;
+    color: rgb(5, 245, 37);
+    font-size: 20px;
+}
+.nav2 .who{
+    text-align: center;
+    color: rgb(6, 8, 143);
+    font-size: 18px;
+}
+
+.menu a:hover{
+    background: #2268b8;
+    transition: all ease-in 1s;
+} 
+
+.nav3{
+    display: flex;
+    width: 100%;
+    top: 400px;
+    justify-content: space-around;
+    gap:50px;
+}
+
+.nav3 .essay1{
+    /* top: 20px; */
+    max-width:500px;
+    margin: 60px 5px 5px 30px;
+}
+
+.nav3 .signup{
+    width: 600px;
+    height: 300px;
+    margin: 60px 5px 5px 30px;
+}
+
+.nav3 .essay1 a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(22, 7, 235);
+}
+
+.nav3 .essay1 a:hover{
+    background: rgb(180, 243, 9);
+    transition: all ease-in 1s;
+}
+
+.nav3 .signup{
+    width: 600px;
+}
+
+.nav4{
+    display: flex;
+    width: 100%;
+    top: 400px;
+    justify-content: space-around;
+    gap:30px;
+    align-items: center;
+}
+
+
+.nav4 .news1{
+    display: flex;
+    margin: 3px 0 auto;
+    justify-content: left;
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+.nav4 .blogs1{
+    display: flex;
+    margin: 3px auto;
+    justify-content: left;
+    font-size: 20px ;
+    font-weight: bold;
+}
+.nav4 button{
+    margin: 0 auto;
+    justify-content: left;
+    background: #928da7;
+    padding: 3px;
+}
+
+.nav4 button:hover{
+    cursor: pointer;
+    border: 3px solid rgb(162, 170, 150);
+}
